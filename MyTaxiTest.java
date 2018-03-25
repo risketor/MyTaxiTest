@@ -53,12 +53,14 @@ public class MyTaxiTest {
         // Click on login button
         onView(withId(R.id.btn_login)).perform(click());
 
+        // A short sleep added here as my emulator/connection was quite slow and the sleep was helping to avoid issues
         SystemClock.sleep(1000);
 
         // Assert search box is displayed and enter the search query
         onView(withId(R.id.textSearch)).check(ViewAssertions.matches(isDisplayed()));
         onView(withId(R.id.textSearch)).perform(replaceText(searchQuery));
 
+        // A short sleep added here as my emulator/connection was quite slow and the sleep was helping to avoid issues
         SystemClock.sleep(1000);
 
         // Click on the specific name on the auto complete
