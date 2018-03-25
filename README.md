@@ -30,3 +30,6 @@ UX ISSUES / IMPROVEMENTS:
 - Driver profile page, there should be a button to go back/up or logging out in the app.
 - Search results not displayed on landscape mode (at least in my emulator).
  
+NOTES:
+- Laptop slow with Android Studio and emulator / internet connection quite slow. Therefore it wasn't too easy to write/test the code/app.
+- Logger should have been added.
