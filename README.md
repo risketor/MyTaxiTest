@@ -1,4 +1,4 @@
-# MyTaxi Test for Sara F. with Espresso
+# MyTaxi Test for with Espresso
 
 Project in Java with Espresso for a simple test in MyTaxiDemo app that: log in, search for a user and click on the phone button.
 
